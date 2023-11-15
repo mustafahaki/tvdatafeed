@@ -376,7 +376,7 @@ class TvDatafeed:
                         float(xi[6]),
                         float(xi[7]),
                         float(xi[8]),
-                        float(xi[9]),
+                        float(xi[9]) if len(xi) > 10 else 0,
                     ]
                 )
 
