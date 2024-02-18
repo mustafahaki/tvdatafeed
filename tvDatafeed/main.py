@@ -372,11 +372,11 @@ class TvDatafeed:
                 data.append(
                     [
                         ts,
-                        (xi[5]),
-                        (xi[6]),
-                        (xi[7]),
-                        (xi[8]),
-                        (xi[9]),
+                        float(xi[5]),
+                        float(xi[6]),
+                        float(xi[7]),
+                        float(xi[8]),
+                        float(xi[9]) if len(xi) > 10 else 0,
                     ]
                 )
 
